@@ -1,0 +1,68 @@
+object Form1: TForm1
+  Left = 0
+  Top = 0
+  Caption = 'Test Draw 1 Pixel by Aone (2017.01.23)'
+  ClientHeight = 552
+  ClientWidth = 483
+  FormFactor.Width = 320
+  FormFactor.Height = 480
+  FormFactor.Devices = [Desktop]
+  OnCreate = FormCreate
+  DesignerMasterStyle = 0
+  object Selection1: TSelection
+    GripSize = 10.000000000000000000
+    HideSelection = False
+    Padding.Left = 10.000000000000000000
+    Padding.Top = 10.000000000000000000
+    Padding.Right = 10.000000000000000000
+    Padding.Bottom = 10.000000000000000000
+    Proportional = False
+    Position.X = 25.000000000000000000
+    Position.Y = 70.000000000000000000
+    Size.Width = 246.000000000000000000
+    Size.Height = 241.000000000000000000
+    Size.PlatformDefault = False
+    ShowHandles = True
+    object PaintBox1: TPaintBox
+      Align = Client
+      Size.Width = 226.000000000000000000
+      Size.Height = 221.000000000000000000
+      Size.PlatformDefault = False
+      OnPaint = PaintBox1Paint
+    end
+  end
+  object ToolBar1: TToolBar
+    Padding.Left = 10.000000000000000000
+    Padding.Top = 10.000000000000000000
+    Padding.Right = 10.000000000000000000
+    Padding.Bottom = 10.000000000000000000
+    Size.Width = 483.000000000000000000
+    Size.Height = 48.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 0
+    object SpinBox1: TSpinBox
+      Touch.InteractiveGestures = [LongTap, DoubleTap]
+      Align = Left
+      TabOrder = 0
+      Cursor = crIBeam
+      Max = 10.000000000000000000
+      Value = 1.000000000000000000
+      ValueType = Float
+      Increment = 0.100000001490116100
+      Position.X = 10.000000000000000000
+      Position.Y = 10.000000000000000000
+      Margins.Right = 10.000000000000000000
+      Size.Width = 116.000000000000000000
+      Size.Height = 28.000000000000000000
+      Size.PlatformDefault = False
+      OnChange = SpinBox1Change
+    end
+    object Label1: TLabel
+      Align = Client
+      Size.Width = 337.000000000000000000
+      Size.Height = 28.000000000000000000
+      Size.PlatformDefault = False
+      Text = 'Test Draw 1 Pixel by Aone (2017.01.23)'
+    end
+  end
+end
